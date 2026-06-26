@@ -3,50 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hzknight | Welcome</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
+    <title>.:: HZKnight.Org ::. - OpenSource Initiative</title>
+    <meta content=".:: HZKnight.Org ::. - OpenSource Initiative" name="title">
+    <meta content="Sito dedicato al modellismo ferroviario realizzato per esperti e non." name="description">
+    <meta content="ferrovia, ferrovie, binari, binario, traversine, traversina, modellismo, modellismo ferroviario, ferroviario, fermodellismo, vagoni, vagone, locomotori, locomotore, immagini, download" name="keywords">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.25.7/dist/css/uikit.min.css" />
+
+    <style>
+        /* Sfondo e reset */
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* Box centrale (Splash) */
+        .splash-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .splash-card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #e5e5e5;
+        }
+
+        .logo-main {
+            max-width: 220px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Footer in stile H0Model */
+        .custom-footer {
+            background-color: #ffffff;
+            border-top: 1px solid #e5e5e5;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .footer-logo {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .cc-icons img {
+            max-width: 1.2em;
+            max-height: 1.2em;
+            margin-left: .2em;
+            vertical-align: middle;
+        }
+        
+        a {
+            color: #1e87f0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="uk-section uk-section-secondary uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
-        
-        <div class="uk-container uk-container-small uk-text-center">
+    <div class="splash-container">
+        <div class="splash-card uk-animation-fade">
             
-            <div class="uk-card uk-card-default uk-card-body uk-border-rounded" 
-                 uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: false"
-                 style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1);">
-                
-                <span class="uk-label uk-label-success uk-margin-small-bottom" style="background-color: #00ffcc; color: #1e1e2f;">
-                    Official Pages
-                </span>
+            <img src="https://brend.h0model.org/sites/hzknight/courrent/hzknight_logo.png" alt="HZKnight.Org - Development Server" class="logo-main">
+            
+            <h1 class="uk-heading-line uk-text-center uk-text-primary uk-margin-medium-top">
+                <span>Benvenuti</span>
+            </h1>
+            
+            <p class="uk-text-large uk-margin-medium-top">
+                La pagina ufficiale dell'organizzazione è ora attiva su GitHub Pages.
+            </p> 
+            
+            <p class="uk-text-muted">
+                Sito dedicato al modellismo ferroviario realizzato per esperti e non. Progetti OpenSource in arrivo.
+            </p>
 
-                <h1 class="uk-heading-medium uk-margin-remove-top" style="color: #00ffcc;">
-                    hzknight
-                </h1>
-                
-                <p class="uk-text-lead" style="color: #ccccff;">
-                    Benvenuti nella pagina ufficiale della nostra organizzazione.
-                </p>
-                
-                <hr class="uk-divider-icon uk-margin-medium-top uk-margin-medium-bottom">
-                
-                <p class="uk-text-meta uk-margin-medium-bottom" style="color: #a0a0c0; font-size: 1rem;">
-                    Stiamo sviluppando grandi progetti. Nel frattempo, puoi dare un'occhiata al nostro codice sorgente.
-                </p>
-
-                <a href="https://github.com/hzknight" 
-                   class="uk-button uk-button-primary uk-button-large uk-border-pill" 
-                   style="background-color: #00ffcc; color: #1e1e2f; font-weight: bold; border: none;"
-                   target="_blank">
-                    Esplora i Repository
+            <div class="uk-margin-large-top">
+                <a href="https://github.com/hzknight" class="uk-button uk-button-primary uk-button-large uk-border-rounded" target="_blank">
+                    Esplora i nostri Repository
                 </a>
-                
             </div>
-            
+
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
-</body>
-</html>
+    <footer class="custom-footer uk-text-center">
+        <div class="uk-container">
+            <div class="uk-margin-small-bottom">
+                <img src="https://
