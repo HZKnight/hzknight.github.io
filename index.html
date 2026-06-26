@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-    <title>Il sito di hzknight</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hzknight | Welcome</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
 </head>
 <body>
-    <h1>Benvenuti nella pagina dell'organizzazione hzknight!</h1>
+
+    <div class="uk-section uk-section-secondary uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+        
+        <div class="uk-container uk-container-small uk-text-center">
+            
+            <div class="uk-card uk-card-default uk-card-body uk-border-rounded" 
+                 uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: false"
+                 style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1);">
+                
+                <span class="uk-label uk-label-success uk-margin-small-bottom" style="background-color: #00ffcc; color: #1e1e2f;">
+                    Official Pages
+                </span>
+
+                <h1 class="uk-heading-medium uk-margin-remove-top" style="color: #00ffcc;">
+                    hzknight
+                </h1>
+                
+                <p class="uk-text-lead" style="color: #ccccff;">
+                    Benvenuti nella pagina ufficiale della nostra organizzazione.
+                </p>
+                
+                <hr class="uk-divider-icon uk-margin-medium-top uk-margin-medium-bottom">
+                
+                <p class="uk-text-meta uk-margin-medium-bottom" style="color: #a0a0c0; font-size: 1rem;">
+                    Stiamo sviluppando grandi progetti. Nel frattempo, puoi dare un'occhiata al nostro codice sorgente.
+                </p>
+
+                <a href="https://github.com/hzknight" 
+                   class="uk-button uk-button-primary uk-button-large uk-border-pill" 
+                   style="background-color: #00ffcc; color: #1e1e2f; font-weight: bold; border: none;"
+                   target="_blank">
+                    Esplora i Repository
+                </a>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
